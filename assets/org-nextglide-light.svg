@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150" role="img" aria-label="Nextglide: The next thing. Work in progress.">
+<style>
+  .pulse { transform-box:fill-box; transform-origin:center; animation:pulse 2s ease-out infinite; }
+  @keyframes pulse { 0% { opacity:.8; transform:scale(1) } 100% { opacity:0; transform:scale(2.3) } }
+  .m { stroke-dasharray:6 10; animation:march 2.4s linear infinite; }
+  @keyframes march { to { stroke-dashoffset:-32 } }
+  @media (prefers-reduced-motion: reduce) { .pulse, .m { animation:none } .pulse { opacity:0 } }
+</style>
+<rect width="600" height="150" rx="16" fill="#ffffff"/>
+<path class="m" d="M56 0V150" stroke="#7448d6" stroke-width="2.4" fill="none" opacity=".55"/>
+<circle class="pulse" cx="56" cy="62" r="11" fill="none" stroke="#7448d6" stroke-width="2"/>
+<circle cx="56" cy="62" r="11" fill="#ffffff" stroke="#7448d6" stroke-width="3"/>
+<text x="96" y="46" style="font:600 13px 'JetBrains Mono', ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, monospace;letter-spacing:.06em;fill:#686d71">remote · <tspan fill="#7448d6">nextglide</tspan></text>
+<text x="96" y="84" style="font:800 34px 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;letter-spacing:-.03em;fill:#121415">Nextglide</text>
+<text x="96" y="113" style="font:500 17px 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;fill:#565b5f">The next thing. Work in progress.</text>
+<text x="572" y="46" text-anchor="end" style="font:500 13px 'JetBrains Mono', ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, monospace;fill:#686d71">github.com/Nextglide ↗</text>
+<rect x=".5" y=".5" width="599" height="149" rx="16" fill="none" stroke="#e1e3e5"/>
+</svg>

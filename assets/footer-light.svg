@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="If it works, don't touch it.">
+<style>
+  .m { fill:none; stroke-width:2.4; stroke-linecap:round; stroke-dasharray:6 10; animation:march 2.4s linear infinite; }
+  @keyframes march { to { stroke-dashoffset:-32 } }
+  .pulse { transform-box:fill-box; transform-origin:center; animation:pulse 2s ease-out infinite; }
+  @keyframes pulse { 0% { opacity:.8; transform:scale(1) } 100% { opacity:0; transform:scale(2.4) } }
+  @media (prefers-reduced-motion: reduce) { .m, .pulse { animation:none } .pulse { opacity:0 } }
+</style>
+<rect width="1200" height="150" rx="16" fill="#fafafa"/>
+<path class="m" style="animation-delay:0.0s" d="M370 154V108C370 76 600 86 600 54" stroke="#b07400"/><path class="m" style="animation-delay:-0.4s" d="M450 154V108C450 76 600 86 600 54" stroke="#2f5fd0"/><path class="m" style="animation-delay:-0.8s" d="M525 154V108C525 76 600 86 600 54" stroke="#c2306f"/><path class="m" style="animation-delay:-1.2s" d="M675 154V108C675 76 600 86 600 54" stroke="#7448d6"/><path class="m" style="animation-delay:-1.6s" d="M750 154V108C750 76 600 86 600 54" stroke="#4f7d12"/><path class="m" style="animation-delay:-2.0s" d="M830 154V108C830 76 600 86 600 54" stroke="#0b7a66"/>
+<path d="M600 54V16" stroke="#0b7a66" stroke-width="2.4" stroke-linecap="round"/>
+<circle class="pulse" cx="600" cy="46" r="8" fill="none" stroke="#0b7a66" stroke-width="2"/>
+<circle cx="600" cy="46" r="8" fill="#fafafa" stroke="#0b7a66" stroke-width="2.8"/>
+<text x="40" y="66" style="font:700 26px 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;letter-spacing:-.02em;fill:#121415">“If it works,</text>
+<text x="40" y="98" style="font:700 26px 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;letter-spacing:-.02em;fill:#121415">don’t touch it.”</text>
+<text x="1160" y="66" text-anchor="end" style="font:500 14px 'JetBrains Mono', ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, monospace;fill:#686d71">Merge branch 'everything' into main</text>
+<text x="1160" y="92" text-anchor="end" style="font:500 14px 'JetBrains Mono', ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, monospace;fill:#0b7a66">✓ build passing</text>
+<rect x=".5" y=".5" width="1199" height="149" rx="16" fill="none" stroke="#e1e3e5"/>
+</svg>
