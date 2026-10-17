@@ -18,7 +18,7 @@ user.name        = abgebaumt
 user.home        = Germany
 user.since       = 2015-09
 core.focus       = desktop-tools, gpu-simulation, 3d
-core.languages   = rust, typescript, python
+core.languages   = typescript, rust, python, c++
 core.status      = open to projects
 core.philosophy  = "If it works, don't touch it."
 ```
@@ -28,7 +28,7 @@ core.philosophy  = "If it works, don't touch it."
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: HTML, CSS, JavaScript, TypeScript, Next.js, NestJS, PHP, Java, Python, Rust, Tauri, PostgreSQL, MySQL, SQL" width="100%">
+  <img src="assets/stack-light.svg" alt="Tech stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Vite, NestJS, Node.js, Fastify, Express, PHP, Java, Python, FastAPI, PostgreSQL, Supabase, MySQL, SQLite, SQL, Rust, Tauri, Capacitor, Kotlin, C, C++, ESP32 / ESP-IDF, PlatformIO, CAN bus, Yocto, CUDA, OpenCL, WRF, Three.js, CesiumJS, OpenLayers, Blender, glTF, Jupyter, TensorFlow, Keras, R, Docker, Turborepo, pnpm, Vitest, Playwright, Storybook, GitHub Actions" width="100%">
 </picture>
 </p>
 
