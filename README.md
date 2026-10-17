@@ -17,7 +17,7 @@
 user.name        = abgebaumt
 user.home        = Germany
 user.since       = 2015-09
-core.focus       = desktop-tools, gpu-simulation, 3d
+core.focus       = web-apps, desktop-tools, embedded, gpu-simulation, maps, 3d
 core.status      = open to projects
 core.philosophy  = "If it works, don't touch it."
 ```
