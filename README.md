@@ -78,7 +78,7 @@ core.philosophy  = "If it works, don't touch it."
 </picture>
 </p>
 
-Open to projects around desktop tools, simulation and 3D.
+Open to projects around web applications, desktop tools, embedded systems, simulation, maps and 3D.
 The fastest way to reach me is through issues or discussions in the repos.
 
 <br>
