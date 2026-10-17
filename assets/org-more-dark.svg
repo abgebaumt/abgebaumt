@@ -6,7 +6,7 @@
   @keyframes blink { 50% { opacity:0 } }
   @media (prefers-reduced-motion: reduce) { .d, .cur { animation:none } }
 </style>
-<rect x="1" y="1" width="1198" height="82" rx="16" fill="none" stroke="#25292c" stroke-width="2" stroke-dasharray="8 8"/>
+<rect x="1" y="1" width="1198" height="82" rx="16" fill="none" stroke="#3d444d" stroke-width="2" stroke-dasharray="8 8"/>
 <text x="40" y="49" style="font:500 19px 'JetBrains Mono', ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, monospace;fill:#82898d">$ git remote add <tspan fill="#eceeef">???</tspan><tspan class="cur" fill="#52b5a0">▍</tspan></text>
 <text x="1040" y="49" text-anchor="end" style="font:700 22px 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;letter-spacing:-.02em;fill:#a2a8ac">More coming soon</text>
 <circle class="d" style="animation-delay:0.00s" cx="1080" cy="42" r="5" fill="#88a7e0"/><circle class="d" style="animation-delay:0.25s" cx="1102" cy="42" r="5" fill="#ad9ade"/><circle class="d" style="animation-delay:0.50s" cx="1124" cy="42" r="5" fill="#52b5a0"/>
